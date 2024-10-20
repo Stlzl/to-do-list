@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topbarHeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-bottom: 48px;
+}
+
+input {
+    width: 85%;
+    height: 32px;
+    padding: 0px 0px 0px 32px;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, rgba(119,111,255,1) 0%, rgba(155,251,255,1) 35%, rgba(163,255,134,1) 100%) 1;;
+    border-right: none;
+    border-width: 2px;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+button {
+    border: 2px solid black;
+    border-left: none;
+    width: 32px;
+    border-width: 2px;  
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-image: linear-gradient(90deg, rgba(163,255,134,1) 1%, rgba(155,251,253,1) 21%, rgba(155,251,254,1) 44%, rgba(155,251,255,1) 68%, rgba(119,111,255,1) 100%) 1;;
+    background: none;
+}
+
+h1 {
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 32px;
+}
