@@ -1,13 +1,60 @@
 ul {
+    padding-top: 32px;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 20%;
+    margin-left: 20%;
     gap: 16px;
     flex-direction: column;
+    margin-right: 20%;
+    margin-top: 24px;
+    padding: 12px 36px 36px 36px;
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    height: 100%;
 }
 
 li {
     font-size: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+.checkbox {
+    width: 20%;
+    text-align: right;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background: rgb(132,164,201);
+    background: radial-gradient(circle, rgba(132,164,201,1) 24%, rgba(76,114,179,1) 100%);
+    overflow-x: hidden;
+}
+
+.itemName {
+    width: 20%;
+    overflow-wrap: break-word;
+}
+
+.listContainer {
+    height: 58vh;
+}
+
+.itemsContainer {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.itemsContainer > * {
+    margin-bottom: 16px;
+}
+
+.checkboxLabel {
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}   
